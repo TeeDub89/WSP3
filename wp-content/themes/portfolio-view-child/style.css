@@ -1,0 +1,72 @@
+/*
+Theme Name: Portfolio View Child
+Template: portfolio-view
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+div.container:nth-child(4) {
+    display: none;
+}
+
+.home-all-content {
+    padding-top: 250px;
+}
+
+#sample1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#sample2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sample3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sample4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sample5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sample6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    margin: auto;
+    padding: 15px;
+}
+
+.wp-block-group__inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
